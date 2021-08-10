@@ -1,0 +1,82 @@
+/*
+#blue{
+  color: blue
+  }
+
+  h1{
+    color: green;
+    text-align:center
+  }
+.red{
+    color: red
+}*/
+@font-face{
+    font-family:"Roboto Slab";
+    src: url("fonts/RobotoSlab-VariableFont_wght.ttf")
+}
+
+.box{
+    color: darkred;
+    text-align: center;
+    font-weight: bold;
+    font-size: 34px;
+    font-family: "Roboto Slab",Arial,Helvetica;
+    background-color: aquamarine;
+    border-style:solid;
+    border-color: darkgreen;
+    border-width: 3px;
+    width: 200px;
+    padding: 20px;
+    margin: auto;
+    margin-top: 50px;
+    
+    
+}
+/*
+body{
+   background-color: RGB(127,255,212);
+}*/
+body{
+    font-family: "Roboto Slab"
+}
+.heading{
+    color: darkblue
+}
+.subh{
+    color: lightcoral
+}
+.para{
+    color:blueviolet;
+    text-align: justify
+}
+.article{
+    width: 50%;
+    border: 1px solid #DDDDDDDD;
+    margin: auto;
+    border-radius: 5px;
+    padding: 20px;
+}
+.image-art{
+    width: 30%;
+    float: right;
+    margin-left:10px;
+}
+@media screen and (max-width:414px)
+{
+    .article{
+        width: 100%;
+        padding: 0px;
+    }
+    .image-art{
+        width: 100%;
+    }
+}
+@media screen and (min-width:415px) and (max-width:1024px)
+{
+    .article{
+        width: 80%;
+    }
+    .image-art{
+        width: 40%;
+    }
+}
